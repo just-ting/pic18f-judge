@@ -2,7 +2,7 @@
 
 以 MPLAB X Simulator（MDB）執行 PIC18F 程式並依 JSON 測資比對資料記憶體的簡易評測工具。支援 PIC assembly（`.asm`）及 XC8 C（`.c`）。
 
-## 環境需求
+## Requirement
 
 - Ubuntu 24.04
 - Docker
