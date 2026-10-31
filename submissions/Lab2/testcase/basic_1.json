@@ -1,0 +1,11 @@
+{
+  "chip": "18F4520",      
+  "writes": [
+    {"addr": "0x120", "data": ["0xA2"]},
+    {"addr": "0x121", "data": ["0xD9"]}
+  ],
+  "reads": [
+    {"addr": "0x122", "len": 5}     
+  ],
+  "expect": ["0x7B","0x5E","0xD9","0x85","0x5E"]   
+}
